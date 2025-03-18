@@ -15,7 +15,9 @@
 
 <header class="{isScrolled ? 'scrolled' : ''}">
     <nav class="nav-container">
-      <div class="logo-container">LOGO</div>
+      <div class="logo-container">
+        <img src="/logo.png" alt="Company Logo" class="logo" />
+      </div>
       <ul class="link-container">
         <li><a href="/services&products">SERVICES & PRODUCTS</a></li>
         <li><a href="/industries">INDUSTRIES</a></li>
@@ -95,7 +97,7 @@
 
 /* Change Font Color on Hover for Other Links */
 .link-container li:not(:last-child) a:hover {
-    color: #162867;
+    color: #486cef;
 }
 
 </style>

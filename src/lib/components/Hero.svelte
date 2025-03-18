@@ -7,6 +7,7 @@
   
   <style>
     .hero {
+        background: url('/hero-bg.png') center/cover no-repeat;
       background-color: lightblue;
       height: 100vh; /* Full viewport height */
       display: flex;
@@ -21,11 +22,11 @@
     }
   
     .small-text {
-      font-size: 1.5rem; /* Smaller text */
+      font-size: 3rem; /* Smaller text */
     }
   
     .large-text {
-      font-size: 3rem; /* Larger text */
+      font-size: 5rem; /* Larger text */
     }
   </style>
   
